@@ -1,5 +1,12 @@
+@charset "utf-8";
+
 body {
     padding-top: 0;
+}
+
+.starter-template {
+	padding-left: 80px;
+	padding-right: 80px;
 }
 
 .block-one {
@@ -13,6 +20,13 @@ body {
 	background-repeat: no-repeat;
 	min-height:100%;
 	*/
+}
+
+.block-two {
+padding-top: 50px;
+background-color: #f7f7f7;
+padding-right: 100px;
+padding-left: 100px;
 }
 
 .logos {
