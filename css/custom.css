@@ -4,11 +4,6 @@ body {
     padding-top: 0;
 }
 
-.starter-template {
-	padding-left: 80px;
-	padding-right: 80px;
-}
-
 .block-one {
 	color: white; 
 	background: black;
@@ -25,12 +20,16 @@ body {
 .block-two {
 padding-top: 50px;
 background-color: #f7f7f7;
-padding-right: 100px;
-padding-left: 100px;
 }
 
 .logos {
 	padding-top: 15px; 
 	padding-bottom: 15px;
 }
+
+.services {
+	padding-top: 15px; 
+	padding-bottom: 15px;
+}
+
 
