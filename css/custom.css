@@ -4,10 +4,21 @@ body {
     padding-top: 0;
 }
 
+.block-one, .block-two, .block-three {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
 .block-one {
-	color: white; 
+	background-image: url(../img/boston.jpg);
+    background-position: top center;
+    background-size: cover;
+	background-color: #262732;
+	color: white;
+	
+	/*color: white; 
 	background: black;
-	padding-top: 50px;
+	padding-top: 50px;*/
 	/*
 	background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/boston.jpg);
     background-size:cover;
@@ -15,11 +26,17 @@ body {
 	background-repeat: no-repeat;
 	min-height:100%;
 	*/
+	/*
+	background-color: #262732;
+    opacity: 0.85;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+	*/
 }
 
 .block-two {
-padding-top: 50px;
-background-color: #f7f7f7;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #f7f7f7;
 }
 
 .logos {
@@ -27,9 +44,36 @@ background-color: #f7f7f7;
 	padding-bottom: 15px;
 }
 
-.services {
-	padding-top: 15px; 
-	padding-bottom: 15px;
+.services, .team-members {
+	padding-top: 40px; 
+	padding-bottom: 40px;
+}
+
+.service-item {
+	padding-top: 55px; 
+	padding-bottom: 55px;
+	background-color: #202a49;
+	color: white;
+	border-radius: 6px 6px 6px 6px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.icon {
+	font-size:60px; 
+	color:white;
+}
+
+.thumbnail {
+	background-color: #202a49;
+}
+
+.thumbnail .caption {
+	color: white;
+}
+
+.team-member {
+	
 }
 
 
