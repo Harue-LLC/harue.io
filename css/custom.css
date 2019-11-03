@@ -4,7 +4,7 @@ body {
     padding-top: 0;
 }
 
-.block-one, .block-two, .block-three {
+.block-one, .block-two, .block-three, .block-four{
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
@@ -39,12 +39,20 @@ body {
 	background-color: #f7f7f7;
 }
 
+.block-four {
+	background-image: url(../img/da-nang.jpg);
+    background-position: top center;
+    background-size: cover;
+	background-color: #262732;
+	color: white;
+}
+
 .logos {
 	padding-top: 15px; 
 	padding-bottom: 15px;
 }
 
-.services, .team-members {
+.services, .team-members, .form-block {
 	padding-top: 40px; 
 	padding-bottom: 40px;
 }
@@ -66,6 +74,39 @@ body {
 
 .thumbnail {
 	background-color: #202a49;
+	
+}
+
+.websites {
+	background-image: url(../img/websites.png);
+    background-position: top center;
+    background-size: cover;
+	background-color: #262732;
+	color: white;
+}
+
+.design {
+	background-image: url(../img/design.jpg);
+    background-position: top center;
+    background-size: cover;
+	background-color: #262732;
+	color: white;
+}
+
+.intranets {
+	background-image: url(../img/intranets.png);
+    background-position: top center;
+    background-size: cover;
+	background-color: #262732;
+	color: white;
+}
+
+.it-support {
+	background-image: url(../img/it-support.png);
+    background-position: top center;
+    background-size: cover;
+	background-color: #262732;
+	color: white;
 }
 
 .thumbnail .caption {
@@ -76,4 +117,11 @@ body {
 	
 }
 
+.form-control  {text-align: center;
+}
 
+.form-control {
+	height: 45px;
+}
+
+.location {color:#ccc;}
