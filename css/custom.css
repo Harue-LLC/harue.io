@@ -36,9 +36,12 @@ body {
 	padding-bottom: 15px;
 }
 
-.services, .team-members, .form-block {
+.services, .team-members {
 	padding-top: 40px; 
 	padding-bottom: 40px;
+}
+
+.form-block {padding-top: 40px; 
 }
 
 .service-item {
@@ -61,6 +64,7 @@ body {
 	
 }
 
+/*
 .websites {
 	background-image: url(../img/websites.png);
     background-position: top center;
@@ -76,6 +80,7 @@ body {
 	background-color: #262732;
 	color: white;
 }
+*/
 
 .intranets {
 	background-image: url(../img/intranets.png);
