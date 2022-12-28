@@ -1,63 +1,68 @@
 @charset "utf-8";
 
 body {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    /*padding-top: 0;*/
+	/*text-align: center;*/
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
 }
 
-body {
-    padding-top: 0;
-}
-
-.block-one, .block-two, .block-three, .block-four{
+/*.block-one, .block-two, .block-three, .block-four{
 	padding-top: 100px;
 	padding-bottom: 100px;
-}
+}*/
+
+.harue-brand {text-align: center;}
 
 .block-one {
-	background-image: url(../img/boston.jpg);
+	/*background-image: url(../img/boston.jpg);
     background-position: top center;
-    background-size: cover;
+    background-size: cover;*/
 	background-color: #262732;
 	color: white;
 }
 
 .block-two {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	/*padding-top: 100px;
+	padding-bottom: 100px;*/
 	background-color: #f7f7f7;
 }
 
 .block-four { 
-	background-image: url(../img/da-nang.jpg);
+	/*background-image: url(../img/da-nang.jpg);
     background-position: top center;
-    background-size: cover;
+    background-size: cover;*/
 	background-color: #262732;
-	color: white;
+	color:white;
 }
 
-.logos {
+/*.brands {
 	padding-top: 15px; 
 	padding-bottom: 15px;
 }
-
-.services, .team-members {
+/*
+.team-members {
 	padding-top: 40px; 
 	padding-bottom: 40px;
-}
+}*/
 
+/*
 .form-block {padding-top: 40px; 
 }
+*/
+
+.service-item {text-align: center;}
+
 
 .service-item {
-	padding-top: 55px; 
-	padding-bottom: 55px;
 	background-color: #202a49;
 	color: white;
-	border-radius: 6px 6px 6px 6px;
-	margin-top:10px;
-	margin-bottom:10px;
 }
+
+/*.row-flex {
+	display: flex;
+	flex-wrap: wrap;
+  }*/
 
 .icon {
 	font-size:60px; 
@@ -69,51 +74,108 @@ body {
 	
 }
 
+
 .websites {
-	background-image: url(../img/websites.png);
+	/*background-image: url(../img/websites.png);
     background-position: top center;
-    background-size: cover;
+    background-size: cover;*/
 	background-color: #262732;
 	color: white;
 }
 
 .design {
-	background-image: url(../img/design.png);
+	/*background-image: url(../img/design.png);
     background-position: top center;
-    background-size: cover;
+    background-size: cover;*/
 	background-color: #262732;
 	color: white;
 }
 
 .intranets {
-	background-image: url(../img/intranets.png);
+	/*background-image: url(../img/intranets.png);
     background-position: top center;
-    background-size: cover;
+    background-size: cover;*/
 	background-color: #262732;
 	color: white;
 }
 
 .it-support {
-	background-image: url(../img/it-support.png);
+	/*background-image: url(../img/it-support.png);
     background-position: top center;
-    background-size: cover;
+    background-size: cover;*/
 	background-color: #262732;
 	color: white;
 }
 
-.thumbnail .caption {
+/*.thumbnail .caption {
 	color: white;
-}
+}*/
 
-.team-member {
-	
-}
-
-.form-control  {text-align: center;
-}
-
+.form-control  {text-align: center;}
+/*
 .form-control {
 	height: 45px;
 }
+*/
+
+/*.footer {
+	background-color:#24292e;
+	color:white;
+	padding-top:10px;
+	text-align: center;
+}*/
 
 .location {color:#ccc;}
+
+/* From Tutorial */
+/*body {
+	margin-top: 40px; */
+  
+  
+  body::before {
+	content: "XS";
+	color: red;
+	font-size: 2rem;
+	font-weight: bold;
+	position: fixed;
+	top: 250px;
+	right: 0;
+  }
+  
+  /* This box class is purely used for explaining how the bootstrap grid system works. */
+  .box {
+	background-color: lightblue;
+	border: 1px solid blue;
+	min-height: 50px;
+	font-size: 2rem;
+  }
+  
+  @media (min-width: 576px) {
+	body::before {
+	  content: "SM";
+	}
+  }
+  
+  @media (min-width: 768px) {
+	body::before {
+	  content: "MD";
+	}
+  }
+  
+  @media (min-width: 992px) {
+	body::before {
+	  content: "LG";
+	}
+  }
+  
+  @media (min-width: 1200px) {
+	body::before {
+	  content: "XL";
+	}
+  }
+  
+  @media (min-width: 1400px) {
+	body::before {
+	  content: "XXL";
+	}
+  }
