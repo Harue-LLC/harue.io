@@ -18,9 +18,9 @@
 		<link rel="stylesheet" id="load-fa-css"  href="https://use.fontawesome.com/releases/v5.6.3/css/all.css?ver=5.2.2" type="text/css" media="all" />
 	</head>
 	<body>
-		<nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
+		<nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light border-bottom">
 			<div class="container">
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="#home">
 				<img src="/img/harue-logo-nav.png" alt="Logo" width="24" height="24" class="d-inline-block align-text-top">
 				Harue
 				</a>
@@ -34,173 +34,199 @@
 				<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="nav">
-					<ul class="navbar-nav">
+					<ul class="navbar-nav nav-pills">
 						<li class="nav-item">
-							<a href="#" class="nav-link">Home</a>
+							<a href="#home" class="nav-link">Home</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link">About</a>
+							<a href="#about" class="nav-link">About</a>
 						</li>
-						<!--<li class="nav-item">
-							<a href="#" class="nav-link">Services</a>
-						</li>-->
+						<li class="nav-item">
+							<a href="#services" class="nav-link">Services</a>
+						</li>
 						<!--<li class="nav-item">
 							<a href="#" class="nav-link">Approach</a>
 						</li>-->
 						<li class="nav-item">
-							<a href="#" class="nav-link">Team</a>
+							<a href="#tools" class="nav-link">Tools</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link">Get In Touch</a>
+							<a href="#team" class="nav-link">Team</a>
+						</li>
+						<li class="nav-item">
+							<a href="#contact" class="nav-link">Contact</a>
 						</li>				
 					</ul>
-				</nav>
-			</div>
-		</div>
-		<div class="block-one">
-			<div class="container text-center py-5">
-				<div class="row">
-					<div class="co-1 harue-brand">
-						<span class="logo"><img src="img/harue-logo.png" class="img-fluid pb-5 pt-2" alt="Harue Logo" style="max-width: 225px;"></span><!--class="img-responsive" style="z-index: 1;" width="191" height="269" alt=""-->
-						<h1 class="pb-5" style="color:#e6e7ec">Web Operations for Biotech Startups</h2><!--class="h3 m-5-xs"-->
-					</div>
-				</div>
-				<div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4">
-					<div class="col-xs border border-primary"><img src="img/genzyme.png" alt="Genzyme Logo" class="img-fluid mb-3" style="max-width: 250px;"/></div>
-					<div class="col-xs border border-primary"><img src="img/sanofi.png" alt="Sanofi Logo" class="img-fluid mb-3" style="max-width: 250px;"/></div>
-					<div class="col-xs border border-primary"><img src="img/safi-bio.png" alt="Safi Biosolutions Logo" class="img-fluid mb-3" style="max-width: 250px;"/></div>
-					<div class="col-xs border border-primary"><img src="img/brigham-and-womens-hospital.png" alt="Brigham and Women's Hospital Logo" class="img-fluid mb-3" style="max-width: 250px;"/></div>
-				</div>
-				<div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4 justify-content-around">
-					<div class="col-xs border border-primary"><img src="img/aviceda.png" alt="Aviceda Therapeutics Logo" class="img-fluid mb-3" style="max-width: 250px;"/></div>
-					<div class="col-xs border border-primary"><img src="img/radius.png" alt="Radius Health Logo" class="img-fluid mb-3" style="max-width: 250px;"/></div>
 				</div>
 			</div>
-		</div>
-		<div class="block-two">
-			<div class="container py-5">
-				<h1>About</h1>
-				<p>After working in-house to support medical research, commercial and corporate affairs initiatives for Brigham and Women's Hospital, Genzyme, Sanofi, and Radius Health, Harue was formed to provide these services independently.</p>
-				<p>We have experience working with on all aspects to assist your digital needs.</p>
-				<div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4 text-center">
-					<div class="col-xs border border-primary">
-						<div class="service-item">
-							<i class="fas fa-desktop icon"></i><br>
-							<h3>Websites</h3>
-							<p>U.S. and International Websites<br>
-							Google Ads &amp; Analytics
-							</p>
-						</div>
-					</div>
-					<div class="col-xs border border-primary">
-						<div>
-							<i class="fas fa-pen-fancy icon"></i><br>
-							<h3>Design</h3>
-							<p>Brand Guidelines<br>
-							Animations
-							</p>
-						</div>
-					</div>
-					<div class="col-xs border border-primary">
-						<div>
-							<i class="far fa-building icon"></i><br>
-							<h3>Intranets</h3>
-							<p>SharePoint<br>
-							Custom Builds
-							</p>
-						</div>
-					</div>
-					<div class="col-xs border border-primary">
-						<div>
-							<i class="fas fa-code icon"></i><br>
-							<h3>IT Support Blah Blah Blah Blah Blah</h3>
-							<p>Website Hosting<br>
-							Google Suite</p>
+		</nav>
+		<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -80%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light" tabindex="0">
+			<div class="block-one" id="home">
+				<div class="container text-center py-5">
+					<div class="row">
+						<div class="co-1 harue-brand">
+							<span class="logo"><img src="img/harue-logo.png" class="img-fluid pb-5 pt-5" alt="Harue Logo" style="max-width: 225px;"></span><!--class="img-responsive" style="z-index: 1;" width="191" height="269" alt=""-->
+							<h1 class="pb-4" style="color:#e6e7ec">Web Operations for Biotech Startups</h2><!--class="h3 m-5-xs"-->
 						</div>
 					</div>
 				</div>
-				<!--<h1>Customers</h1>
-				<p>Our customers are those who have has little to no IT support or that do not have a dedicated internal Web team.</p>
-				<h1>Approach</h1>
-				<p></p>
-				<h2>Availability</h2>--><!--style="font-size:48px; margin-bottom:20px;"-->
-				<!--<p>Our team is geographically disperrsed allowing us to provide support Monday-Friday 2am-5pm ET.</p>--><!--style="font-size:21px; line-height: 1.7em;"-->
 			</div>
-		</div>
-		<div class="block-three">
-			<div class="container py-5">
-				<h1>Team</h1>
-				<p><!--style="font-size:21px; line-height: 1.7em;"-->John and Steve know the digital biotech space, Addo leads design and development, and Ian provides the added creative.</p>
-				<div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4 text-center"><!--team-members-->
-					<div class="col-xs border border-primary"> <!--col-sm-6 col-md-6 col-lg-3 col-xl-3-->
-						<div class="card thumbnail websites"> <!-- style="width: 18rem; removed-->
-							<img class="card-img-top" src="img/john-bloomer-harue.jpg"  alt="John Bloomer's Photo">
-							<div class="card-body">
-								<h5 class="card-title">Director</h5>
-								<p class="card-text">John Bloomer</p>
+			<div class="block-two py-4">
+				<div class="container py-5 text-center">
+					<h1 id="about">About</h1>
+					<p class="fs-5">After working in-house for large and small biotech organizations supporting medical research, commercial and corporate affairs iniatives, Harue was formed to provide these services independantly.</p> 
+					<div class="row justify-content-end"><!--row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4-->
+						<div class="col-12 col-sm-6 col-lg-3 border border-primary mb-3"><img src="img/genzyme.png" alt="Genzyme Logo" class="img-fluid"/></div>
+						<div class="col-12 col-sm-6 col-lg-3 border border-primary mb-3"><img src="img/sanofi.png" alt="Sanofi Logo" class="img-fluid"/></div>
+						<div class="col-12 col-sm-6 col-lg-3 border border-primary mb-3"><img src="img/safi-bio.png" alt="Safi Biosolutions Logo" class="img-fluid"/></div>
+						<div class="col-12 col-sm-6 col-lg-3 border border-primary mb-3"><img src="img/brigham-and-womens-hospital.png" alt="Brigham and Women's Hospital Logo" class="img-fluid"/></div>
+					</div>
+					<div class="row justify-content-evenly pb-5"><!--row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4 justify-content-around-->
+						<div class="col-12 col-sm-6 col-lg-3 border border-primary mb-3"><img src="img/aviceda.png" alt="Aviceda Therapeutics Logo" class="img-fluid"/></div>
+						<div class="col-12 col-sm-6 col-lg-3 border border-primary mb-3"><img src="img/radius.png" alt="Radius Health Logo" class="img-fluid"/></div>
+					</div>
+					<h1 id="services">Services</h1>
+					<p>Our services are tailored for biotech startups who often have little to no IT support and do not have a dedicated internal Web team.  We have experience working with the essential components to assist in the creation and maintenace of your online presense.</p>
+					<div class="row"><!-- row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4-->
+						<div class="col-12 col-sm-4 border border-primary mb-3">
+							<div class="service-item rounded-2 py-5">
+								<i class="fas fa-code icon"></i><br>
+								<h2 class="h3">IT Foundation</h2>
+								<ul class="list-inline m-5">
+									<li class="list-inline-item">Domain Acquisition &amp; Management</li>
+									<li class="list-inline-item">Website Hosting</li>
+									<li class="list-inline-item">Email Setup</li>
+									<li class="list-inline-item">Collaboration Tools</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-12 col-sm-4 border border-primary mb-3"><!---xs border border-primary -->
+							<div class="service-item rounded-2 py-5">
+								<i class="fas fa-desktop icon"></i><br>
+								<h2 class="h3">Websites</h2>
+								<ul class="list-inline m-5">
+									<li class="list-inline-item">International Websites</li>
+									<li class="list-inline-item">Analytics</li>
+									<li class="list-inline-item">Compliance</li>
+									<li class="list-inline-item">Accessibility</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-12 col-sm-4 border border-primary mb-3">
+							<div class="service-item rounded-2 py-5">
+								<i class="fas fa-pen-fancy icon"></i><br>
+								<h2 class="h3">Design</h2>
+								<ul class="list-inline m-5">
+									<li class="list-inline-item">Logo</li>
+									<li class="list-inline-item">Color Palette</li>
+									<li class="list-inline-item">Animation</li>
+									<li class="list-inline-item">Media Kit</li>
+									<li class="list-inline-item">Brand Guidelines</li>
+								</ul>
+							</div>
+						</div>
+						<!--<div class="col-12 col-sm-6 col-lg-3 border border-primary mb-3">
+							<div class="service-item rounded-2 py-5">
+								<i class="far fa-building icon"></i><br>
+								<h2 class="h3">Collaboration</h2>
+								<ul class="list-inline">
+									<li class="list-inline-item">SharePoint</li>
+									<li class="list-inline-item">Custom Builds</li>
+								</ul>
+							</div>
+						</div>-->
+
+					</div>
+					<div class="row">
+						<div class="col-8 offset-2 py-5 text-center">
+							<i class="fal fa-globe"></i>
+							<h2>Availability</h2><!--style="font-size:48px; margin-bottom:20px;"-->
+							<p>We are geographically disperrsed allowing us to provide support Monday-Friday 2am-5pm ET.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-8 offset-2 py-5 text-center">
+							<h2 id="tools">[Tools Here]</h2><!--style="font-size:48px; margin-bottom:20px;"-->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="block-three py-4">
+				<div class="container py-5">
+					<h1 id="team">Team</h1>
+					<p><!--style="font-size:21px; line-height: 1.7em;"-->John and Steve know the digital biotech space, Addo leads design and development, and Ian provides the added creative.</p>
+					<div class="row"><!--team-members gy-3 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4 text-center-->
+						<div class="col-12 col-sm-6 col-lg-3 border border-primary mb-3"> <!--col-sm-6 col-md-6 col-lg-3 col-xl-3-->
+							<div class="card thumbnail websites"> <!-- style="width: 18rem; removed-->
+								<img class="card-img-top" src="img/john-bloomer-harue.jpg"  alt="John Bloomer's Photo">
+								<div class="card-body">
+									<h5 class="card-title">Director</h5>
+									<p class="card-text">John Bloomer</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3 border border-primary mb-3">
+							<div class="card thumbnail design">
+								<img src="img/stephen-martin-harue.jpg" class="card-img-top" alt="Stephen Martin's Photo">
+								<div class="card-body">
+									<h5 class="card-title">Partner</h5>
+									<p class="card-text">Stephen Martin</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3 border border-primary mb-3">
+							<div class="card thumbnail intranets">
+								<img src="img/addo-klopman-harue.jpg" class="card-img-top" alt="Addo Klopman's Photo">
+								<div class="card-body">
+									<h5 class="card-title">Lead Development &amp; Design</h5>
+									<p class="card-text">Addo Klopman</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3 border border-primary mb-3">
+							<div class="card thumbnail it-support">
+								<img src="img/ian-gavin-harue.jpg" class="card-img-top" alt="Ian Gavin's Photo">
+								<div class="card-body">
+									<h5 class="card-title">Designer</h5>
+									<p class="card-text">Ian Gavin</p>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-xs border border-primary">
-						<div class="card thumbnail design">
-							<img src="img/stephen-martin-harue.jpg" class="card-img-top" alt="Stephen Martin's Photo">
-							<div class="card-body">
-								<h5 class="card-title">Partner</h5>
-								<p class="card-text">Stephen Martin</p>
+				</div>
+			</div>
+			<div class="block-four py-4">
+				<div class="container py-5">
+					<h1 id="contact">Contact</h1><!--style="font-size:64px; margin-bottom:20px;"-->
+					<p>Source your website services from experienced western professionals.</p>
+					<form>
+						<div class="row gy-3">
+							<div class="col-xs border border-primary"><!-- class="col-4 offset-2 mb-3"-->
+								<input type="text" class="form-control" placeholder="Name" aria-label="Name">
+							</div>
+							<div class="col-xs border border-primary"><!-- class="col-4 mb-3"-->
+								<input type="email" class="form-control" placeholder="Email" aria-label="Email">
+							</div>
+							<div class="col-xs border border-primary"><!-- class="col-4 offset-2 mb-3"-->
+								<input type="text" class="form-control" placeholder="Phone" aria-label="Phone">
+							</div>
+							<div class="col-xs border border-primary"><!-- class="col-4 mb-3"-->
+								<input type="subject" class="form-control" placeholder="Subject" aria-label="Subject">
+							</div>
+							<div class="col-xs border border-primary"><!-- class="col-8 offset-2 mb-3"-->
+								<textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message" aria-label="Message"></textarea>
 							</div>
 						</div>
-					</div>
-					<div class="col-xs border border-primary">
-						<div class="card thumbnail intranets">
-							<img src="img/addo-klopman-harue.jpg" class="card-img-top" alt="Addo Klopman's Photo">
-							<div class="card-body">
-								<h5 class="card-title">Lead Development &amp; Design</h5>
-								<p class="card-text">Addo Klopman</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-xs border border-primary">
-						<div class="card thumbnail it-support">
-							<img src="img/ian-gavin-harue.jpg" class="card-img-top" alt="Ian Gavin's Photo">
-							<div class="card-body">
-								<h5 class="card-title">Designer</h5>
-								<p class="card-text">Ian Gavin</p>
-							</div>
-						</div>
-					</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
 				</div>
 			</div>
 		</div>
-		<div class="block-four">
-			<div class="container">
-				<h1>Get In Touch</h1><!--style="font-size:64px; margin-bottom:20px;"-->
-				<p>Source your website services from experienced western professionals.</p><!-- style="font-size:21px; line-height: 1.7em;"-->
-				<form>
-					<div class="row row-cols-sm-1">
-						<div class="col-xs border border-primary"><!-- class="col-4 offset-2 mb-3"-->
-							<input type="text" class="form-control" placeholder="Name" aria-label="Name">
-						</div>
-						<div class="col-xs border border-primary"><!-- class="col-4 mb-3"-->
-							<input type="email" class="form-control" placeholder="Email" aria-label="Email">
-						</div>
-						<div class="col-xs border border-primary"><!-- class="col-4 offset-2 mb-3"-->
-							<input type="text" class="form-control" placeholder="Phone" aria-label="Phone">
-						</div>
-						<div class="col-xs border border-primary"><!-- class="col-4 mb-3"-->
-							<input type="subject" class="form-control" placeholder="Subject" aria-label="Subject">
-						</div>
-						<div class="col-xs border border-primary"><!-- class="col-8 offset-2 mb-3"-->
-							<textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message" aria-label="Message"></textarea>
-						</div>
-					</div>
-					<button type="submit" class="btn btn-primary">Submit</button>
-				</form>
-			</div>
-		</div>
+	</div>
 		<div class="footer text-bg-dark">
 			<div class="container">
 				<div class="row">
-					<div class="col"><p><span class="location">Sheridan, Wyoming &nbsp; | &nbsp; </span>© Harue LLC 2023 &nbsp;  | &nbsp;  <span class="location">Da Nang, Vietnam</span></p><!--class="col-md-12"-->
+					<div class="col text-center"><p><span class="location">Sheridan, Wyoming &nbsp; | &nbsp; </span>© Harue LLC 2023 &nbsp;  | &nbsp;  <span class="location">Da Nang, Vietnam</span></p><!--class="col-md-12"-->
 					</div>
 				</div>
 			</div>
