@@ -13,6 +13,8 @@ body {
 
 a {color: #5B305A; text-decoration:underline;}
 
+.block-five a {text-decoration:none;}
+
 .names {font-size: 24px;}
 
 h1 {font-size:64px; margin-bottom:20px;}
