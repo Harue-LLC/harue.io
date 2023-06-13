@@ -13,6 +13,12 @@ body {
 
 a {color: #5B305A; text-decoration:underline;}
 
+p {margin: 0 0 80px;}
+
+.lead-lead {font-size:36px; line-height: 1.3em; margin-top: 0; margin-bottom: 0;}
+
+.lead {font-size:28px; line-height: 1.3em;}
+
 .block-five a {text-decoration:none;}
 
 .names {font-size: 24px;}
@@ -23,6 +29,7 @@ h2 {font-size: 32px;}
 
 h3 {font-size: 18px;}
 
+.footer p {margin-top: 0; margin-bottom: 0;}
 
 .block-one, .block-two, .block-three, .block-four, .block-five, .block-six {
 	padding-top: 100px;
@@ -45,9 +52,7 @@ h3 {font-size: 18px;}
 	background-color: #f7f7f7;
 }
 
-.lead-lead {font-size:36px; line-height: 1.3em; style="margin-top: 0; margin-bottom: 0;"}
 
-.lead {font-size:28px; line-height: 1.3em;}
 
 .logos {
 	padding-top: 15px; 
@@ -127,4 +132,4 @@ h3 {font-size: 18px;}
 
 .location {color:#ccc;}
 
-.footer {background-color:#5B305A; color:white; padding-top:10px;"}
+.footer {background-color:#5B305A; color:white; padding-top:10px; padding-bottom:10px;}
